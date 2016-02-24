@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+btsbridge.egg-info/PKG-INFO
+btsbridge.egg-info/SOURCES.txt
+btsbridge.egg-info/dependency_links.txt
+btsbridge.egg-info/entry_points.txt
+btsbridge.egg-info/requires.txt
+btsbridge.egg-info/top_level.txt
+bugzilla/__init__.py
+bugzilla/bugzilla.py

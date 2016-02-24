@@ -1,0 +1,5 @@
+[console_scripts]
+btsbridge = bridge:main
+bugzilla = bugzilla:main
+cherwell = cherwell:main
+

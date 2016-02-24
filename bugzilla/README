@@ -1,0 +1,25 @@
+CC List Manipulation
+====================
+
+Design Goals
+------------
+
+* Get the current CC list for a bug
+* Set a cc list for a bug
+* Save the lists used to set cc lists
+* Delete an entry from the saved CC list
+* Allow reuse of saved cc entries and lists
+* Pass the lists in somewhat of a freehand
+* Write a shell wrapper for basic operations and to hide the python/3.x behind it.
+
+Implementation
+--------------
+
+* Use the BZ APIv1 for now as v2 is not out, yet. See 
+* BZ bug handling docs:
+    http://bugzilla.readthedocs.org/en/latest/api/core/v1/bug.html#rest-single-bug
+* request docs:
+    http://docs.python-requests.org/en/latest/
+* JSON docs:
+    https://pymotw.com/2/json/
+    http://docs.python-guide.org/en/latest/scenarios/json/
